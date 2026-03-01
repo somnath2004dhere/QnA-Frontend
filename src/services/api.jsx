@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL="https://qna-backend-2-dpth.onrender.com/api/qna/ask";
+const API_URL=import.meta.env.VITE_API_URL;
 
 export const fetchChatResponse =async (question) => {
 
